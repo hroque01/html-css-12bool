@@ -8,5 +8,7 @@
 [class*="col-"] {
     background-color: #006cfa;
     border: solid 1px white;
-    min-height: 100px;
+    min-height: 50px;
+    text-align: center;
+    align-items: center;
 }

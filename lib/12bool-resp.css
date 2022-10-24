@@ -381,7 +381,5 @@
     .col-lg-offset-12 { 
         margin-left: calc((100% / 12) * 12);
     }
-    
-    
 }
 
