@@ -1,0 +1,82 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+[class*="col-"]{
+    flex: 0 0 auto;
+    background-color: white;
+    min-height: 30px;
+    border: 1px solid black;
+}
+
+.col-1{
+    flex-basis: calc(100% / 30 );
+}
+.col-2{
+    flex-basis: calc((100% / 30) * 2 );
+}
+.col-3{
+    flex-basis: calc((100% / 30) * 3 );
+}
+.col-4{
+    flex-basis: calc((100% / 30) * 4 );
+}
+.col-5{
+    flex-basis: calc((100% / 30) * 5);
+}
+.col-6{
+    flex-basis: calc((100% / 30) * 6);
+}
+.col-7{
+    flex-basis: calc((100% / 30) * 7);
+}
+.col-8{
+    flex-basis: calc((100% / 30) * 8);
+}
+.col-9{
+    flex-basis: calc((100% / 30) * 9 );
+}
+.col-10{
+    flex-basis: calc((100% / 30) * 10 );
+}
+.col-11{
+    flex-basis: calc((100% / 30) * 11 );
+}
+.col-30{
+    flex-basis: 100%;
+}
+.col-offset-1{
+    margin-left: calc(100% / 30);
+}
+.col-offset-2{
+    margin-left: calc((100% / 30) * 2) ;
+}
+.col-offset-3{
+    margin-left: calc((100% / 30) * 3) ;
+}
+.col-offset-4{
+    margin-left: calc((100% / 30) * 4) ;
+}
+.col-offset-5{
+    margin-left: calc((100% / 30) * 5) ;
+}
+.col-offset-6{
+    margin-left: calc((100% / 30) * 6) ;
+}
+.col-offset-7{
+    margin-left: calc((100% / 30) * 7) ;
+}
+.col-offset-8{
+    margin-left: calc((100% / 30) * 8) ;
+}
+.col-offset-9{
+    margin-left: calc((100% / 30) * 9) ;
+}
+.col-offset-10{
+    margin-left: calc((100% / 30) * 10) ;
+}
+.col-offset-11{
+    margin-left: calc((100% / 30) * 11) ;
+}
+
