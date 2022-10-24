@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+[class*="col-"] {
+    background-color: #006cfa;
+    border: solid 1px white;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+section {
+    margin: 15px 0;
+}
+
+.nested {
+    background-color: #00e265;
+    border: solid 1px #006cfa;
+}
+
+.padding {
+    padding: 12px;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: end;
+}
+
+.height {
+    min-height: 100px;
+}
+
+.mezza {
+   height: 50px;
+}
+
+.center {
+    width: 100%;
+    align-self: center;
+}
+
+.end {
+    width: 100%;
+    align-self: end;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.col-xs-12.padding.space-around {
+    width: 30%;
+}
+
+.space-between {
+    justify-content: space-between;
+}
