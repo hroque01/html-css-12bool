@@ -20,6 +20,7 @@
 
 /* Colonne */
 [class*="col-"] {
+    display: flex;
     flex: 0 0 auto;
 }
 
@@ -98,51 +99,51 @@
 
 /* offset */
 
-.col-lg-offset-1 { 
+.col-xs-offset-1 { 
     margin-left: calc((100% / 12) * 1);
 }
 
-.col-lg-offset-2 { 
+.col-xs-offset-2 { 
     margin-left: calc((100% / 12) * 2);
 }
 
-.col-lg-offset-3 { 
+.col-xs-offset-3 { 
     margin-left: calc((100% / 12) * 3);
 }
 
-.col-lg-offset-4 { 
+.col-xs-offset-4 { 
     margin-left: calc((100% / 12) * 4);
 }
 
-.col-lg-offset-5 { 
+.col-xs-offset-5 { 
     margin-left: calc((100% / 12) * 5);
 }
 
-.col-lg-offset-6 { 
+.col-xs-offset-6 { 
     margin-left: calc((100% / 12) * 6);
 }
 
-.col-lg-offset-7 { 
+.col-xs-offset-7 { 
     margin-left: calc((100% / 12) * 7);
 }
 
-.col-lg-offset-8 { 
+.col-xs-offset-8 { 
     margin-left: calc((100% / 12) * 8);
 }
 
-.col-lg-offset-9 { 
+.col-xs-offset-9 { 
     margin-left: calc((100% / 12) * 9);
 }
 
-.col-lg-offset-10 { 
+.col-xs-offset-10 { 
     margin-left: calc((100% / 12) * 10);
 }
 
-.col-lg-offset-11 { 
+.col-xs-offset-11 { 
     margin-left: calc((100% / 12) * 11);
 }
 
-.col-lg-offset-12 { 
+.col-xs-offset-12 { 
     margin-left: calc((100% / 12) * 12);
 }
 

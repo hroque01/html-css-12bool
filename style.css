@@ -9,6 +9,20 @@
     background-color: #006cfa;
     border: solid 1px white;
     min-height: 50px;
-    text-align: center;
     align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+section {
+    margin: 15px 0;
+}
+
+.nested {
+    background-color: #00e265;
+    border: solid 1px #006cfa;
+}
+
+.col-xs-6 {
+    padding: 12px;
 }
