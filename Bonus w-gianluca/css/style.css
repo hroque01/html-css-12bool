@@ -26,8 +26,15 @@
     /* background-color: red; */
 }
 
-.white{
-    background-color: white;
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: #66DD73;
+}
+.brown{
+    background-color: brown;
 }
 .yellow{
     background-color: #fed562;
@@ -46,4 +53,14 @@
 }
 .pelle{
     background-color: #fee5cc;
+}
+.col-8>span{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+.col-8.text{
+    border: none;
 }
